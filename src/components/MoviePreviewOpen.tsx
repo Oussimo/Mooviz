@@ -27,8 +27,6 @@ const MovieDetails = ({
 	releaseDate: string;
 	rating: string;
 }) => {
-	const { setShowDetails } = useMovie();
-
 	return (
 		<div className="p-4 flex flex-col justify-between grow">
 			<div>
@@ -38,7 +36,7 @@ const MovieDetails = ({
 			</div>
 			<div>
 				<Link to="/details">
-					<Button setShowDetails={setShowDetails}>
+					<Button >
 						See Details
 						<FaArrowRight className="transform group-hover:translate-x-2 transition-transform duration-400 ease-in-out" />
 					</Button>

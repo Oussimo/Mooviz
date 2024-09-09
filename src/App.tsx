@@ -1,5 +1,4 @@
 import MovieDetails from "./components/MovieDetails";
-import { useMovie } from "./context/movieContext";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 
